@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  h1 {
+    font-size: 48px;
+  }
+  
+  h4 {
+    font-size: 24px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+  }
+  
+  .circle {
+    background-color: orange;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+  }
+  
+  .content,
+  .minutes {
+    margin-left: 30px;
+  }
+  
+  .minutes {
+    height: 200px;
+    position: relative;
+    width: 101px;
+  }
+  
+  .minute {
+    bottom: 0;
+    font-size: 84px;
+    font-weight: bold;
+    height: 100px;
+    opacity: 0;
+    position: absolute;
+  }
+  
+  .wipe-in {
+    opacity: 1;
+    transition: transform 3s, opacity 3s;
+    transform: translateY(-100%);
+  }
+  
+  .wipe-out {
+    opacity: 0;
+    transition: transform 2700ms, opacity 2700ms;
+    transform: translateY(-200%);
+  }
+  
+  .minute span {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 3px;
+  }
+  ngb-carousel {
+    max-width: 700px;
+    margin: 50px auto;
+}
+
+ngb-carousel img {
+    width: 100%;
+    outline: none;
+}
+
+ngb-carousel {
+    width: inherit;
+    height: inherit;
+}
+
+.carousel-inner {
+    overflow: visible;
+}
+
+.carousel-item {
+    display: flex !important;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1.2s ease-in-out, visibility 1.2s;
+    z-index: -1;
+}
+
+.carousel-item.active{
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+.carousel-control-prev {
+     z-index: 20;
+}
+
+
+.carousel-control-next {
+     z-index: 20;
+}
+
+.carousel-indicators{
+    z-index: 20;
+}

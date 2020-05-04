@@ -1,0 +1,51 @@
+.info{
+/*     background: rgb(36,47,62);
+background: linear-gradient(180deg, rgba(36,47,62,1) 0%, rgba(87,43,70,1) 61%, rgba(109,41,74,1) 100%); */
+}
+.title{
+    font-size: 16px;
+    font-weight: bold;
+}
+.nombre{
+    font-size: 40px;
+    font-weight: bold;
+}
+.apellido{
+    font-size: 40px;
+    font-weight: bold;
+    color: #9C9C9C;
+}
+.text-info{
+    color: white !important;
+    font-size: 16px;
+
+}
+.imgp{
+    height: 80%;
+    -webkit-box-shadow: 3px 9px 26px 2px rgba(0,0,0,0.4);
+    -moz-box-shadow: 3px 9px 26px 2px rgba(0,0,0,0.4);
+    box-shadow: 3px 9px 26px 2px rgba(0,0,0,0.4);
+}
+
+.redes {
+    margin-top: 8%;
+}
+
+.redes i {
+    margin-right: 8%;
+    display: inline;
+}
+
+.contact {
+    margin-top: 12%;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.contact .email {
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+.text{
+    font-size: 12px;
+}

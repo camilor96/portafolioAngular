@@ -1,0 +1,38 @@
+<div class="container">
+<!--   <ngb-carousel (slice)="slideActivate($event)"> -->
+  <ngb-carousel #ngcarousel>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper ">
+        <img class="imgmin" src="../../../assets/images/1p.jpg" width="100%" alt="Angular Carousel 1">
+      </div>
+      <div class="carousel-caption">
+        <h3>Title Goes Here</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img src="../../../assets/images/2p.jpg" width="100%" alt="Angular Carousel 3">
+      </div>
+      <div class="carousel-caption">
+        <h3>Title Goes Here</h3>
+        <p>Consectetur tortor volutpat pretium.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img src="../../../assets/images/2p.jpg" width="100%" alt="Angular Carousel 3">
+      </div>
+      <div class="carousel-caption">
+        <h3>Title Goes Here</h3>
+        <p>Consectetur tortor volutpat pretium.</p>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+  <div class="text-center">
+  <button (click)="navigateToSlide('four')">Go to Slide Four</button>
+  <button (click)="getToPrev()">Prev</button>
+  <button (click)="goToNext()">Next</button>
+  <button (click)="stopCarousel()">Pause</button>
+</div>
+  </div>

@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: "Open Sans", "Helvetica Neue", sans-serif; 
+    background: rgb(36,47,62);
+    background: linear-gradient(180deg, rgba(36,47,62,1) 0%, rgba(87,43,70,1) 61%, rgba(109,41,74,1) 100%);
+    ; color: white;}
