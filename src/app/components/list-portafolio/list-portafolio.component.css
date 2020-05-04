@@ -108,3 +108,23 @@ ngb-carousel {
 .carousel-indicators{
     z-index: 20;
 }
+.imgmin{
+  height: 80%;
+  -webkit-box-shadow: 3px 9px 26px 2px rgba(0,0,0,0.4);
+  -moz-box-shadow: 3px 9px 26px 2px rgba(0,0,0,0.4);
+  box-shadow: 3px 9px 26px 2px rgba(0,0,0,0.4);
+}
+.prev i.fa.fa-arrow-circle-up {
+  font-size: 36px;
+  cursor: pointer;
+}
+.prev i.fa.fa-arrow-circle-up:hover {
+  opacity: 0.5;
+}
+.next i.fa.fa-arrow-circle-down {
+  font-size: 36px;
+  cursor: pointer;
+}
+.next i.fa.fa-arrow-circle-down:hover {
+  opacity: 0.5;
+}
