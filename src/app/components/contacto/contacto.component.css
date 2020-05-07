@@ -1,0 +1,36 @@
+.btn-submit {
+    background: #6D294A;
+    color: white;
+    border: #6D294A;
+}
+
+.btn-submit:hover {
+    background: #511C36;;
+
+}
+.bg{
+    height: 550px;
+    width: 100%;
+background-image: url("/assets/images/mapmap-01.jpg");
+}
+h1{
+    margin-top: 30px;
+    color: #6D294A;
+    font-size: 30px;
+}
+.icons{
+    margin-top: 5%;
+}
+
+.icons i {
+    color: #6D294A;
+}
+.text {
+    color: #6D294A;
+}
+.bg{
+
+    -webkit-box-shadow: 3px 9px 26px 2px rgba(0,0,0,0.4);
+    -moz-box-shadow: 3px 9px 26px 2px rgba(0,0,0,0.4);
+    box-shadow: 3px 9px 26px 2px rgba(0,0,0,0.4);
+}
