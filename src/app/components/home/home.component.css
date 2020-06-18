@@ -49,3 +49,69 @@ background: linear-gradient(180deg, rgba(36,47,62,1) 0%, rgba(87,43,70,1) 61%, r
 .text{
     font-size: 12px;
 }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .about {
+        margin-top: 20%;
+    }
+    .contact {
+        margin-top: 12%;
+        font-weight: bold;
+        font-size: 12px;
+        margin-bottom: 12%
+    }
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .about {
+        margin-top: 20%;
+    }
+    .contact {
+        margin-top: 12%;
+        font-weight: bold;
+        font-size: 12px;
+        margin-bottom: 12%;
+    }
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .about {
+        margin-top: 0%;
+    }
+    .contact {
+        margin-top: 12%;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .about {
+        margin-top: 0%;
+    }
+    .contact {
+        margin-top: 12%;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .about {
+        margin-top: 0%;
+    }
+    .contact {
+        margin-top: 12%;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    
+}
